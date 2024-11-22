@@ -10,9 +10,12 @@ it with other values. It also asks to convert characters or strings to an intege
 public class MyInteger { // start of class
     // store int value reprsent by MyInteger object
     private int value;
+
     // constructor that create a MyInteger wit a specific value
     public MyInteger(int value) {
         this.value = value; }
+
+
     // get method to return the int value of MyInteger
 
     public int getValue() {
